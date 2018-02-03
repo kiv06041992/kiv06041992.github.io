@@ -1,6 +1,8 @@
 <script>
-  if (window.location.search.split('=')[0] == '?code') {
-    document.getElementById('vkaccesstoken').setAttribute("value", window.location.search.split('=')[1]); 
+  document.addEventListener("DOMContentLoaded", function(event) { 
+    if (window.location.search.split('=')[0] == '?code') {
+      document.getElementById('vkaccesstoken').setAttribute("value", window.location.search.split('=')[1]); 
+    }
   }
 </script>
 <table>
