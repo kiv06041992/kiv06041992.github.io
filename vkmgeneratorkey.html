@@ -1,20 +1,20 @@
 <script>
   if (window.location.search.split('=')[0] == '?code') {
-    document.getElementById('vkaccesstoken').value(window.location.search.split('=')[1]);
-   }
+    document.getElementById('vkaccesstoken').setAttribute("value", window.location.search.split('=')[1]); 
+  }
 </script>
 <table>
   <tr>
     <td>  
       <form action="https://oauth.vk.com/authorize" method="get">
-          <input name="client_id"  value="6187048"> = client_id<br>
-          <input name="redirect_uri"  value="https://kiv06041992.github.io"> = redirect_uri<br>
-          <input name="display"  value="mobile"> = display<br>
-          <input name="scope"  value="market,offline,photos"> = scope<br>
-          <input type="submit">
+          <input name="client_id" value="6187048"> = client_id<br>
+          <input name="redirect_uri" value="https://kiv06041992.github.io"> = redirect_uri<br>
+          <input name="display" value="mobile"> = display<br>
+          <input name="scope" value="market,offline,photos"> = scope<br>
+          <input type="submit" value="Сгенерировать VKAPISecret">
         </form>
     </td>
-    <td>
+    <td style="vertical-align:top">
       <input value="6187048"> = VKAPPID<br>
       <input value="So7tsGpVVM7uzpMQgFFz"> = VKAPISecret<br>
       <input value="" id="vkaccesstoken"> = VKAPISecret<br>
