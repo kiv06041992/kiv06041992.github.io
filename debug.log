@@ -1,0 +1,715 @@
+2019-03-07T20:01:26Z Bitcoin Core version v0.18.0rc1 (release build)
+2019-03-07T20:01:27Z Assuming ancestors of block 0000000000000000000f1c54590ee18d15ec70e68c8cd4cfbadb1b4f11697eee have valid signatures.
+2019-03-07T20:01:27Z Setting nMinimumChainWork=0000000000000000000000000000000000000000051dc8b82f450202ecb3d471
+2019-03-07T20:01:27Z Using the 'sse4(1way),sse41(4way)' SHA256 implementation
+2019-03-07T20:01:27Z Default data directory /home/q/.bitcoin
+2019-03-07T20:01:27Z Using data directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:01:27Z Config file: /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/bitcoin.conf
+2019-03-07T20:01:27Z Using at most 125 automatic connections (1024 file descriptors available)
+2019-03-07T20:01:27Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2019-03-07T20:01:27Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2019-03-07T20:01:27Z Using 6 threads for script verification
+2019-03-07T20:01:27Z scheduler thread start
+2019-03-07T20:01:27Z Using wallet directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:01:27Z init message: Verifying wallet(s)...
+2019-03-07T20:01:27Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2019-03-07T20:01:27Z Using wallet /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:01:27Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-07T20:01:27Z init message: Загрузка черного списка...
+2019-03-07T20:01:27Z Cache configuration:
+2019-03-07T20:01:27Z * Using 2.0 MiB for block index database
+2019-03-07T20:01:27Z * Using 8.0 MiB for chain state database
+2019-03-07T20:01:27Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2019-03-07T20:01:27Z init message: Загрузка индекса блоков...
+2019-03-07T20:01:27Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index
+2019-03-07T20:01:28Z Opened LevelDB successfully
+2019-03-07T20:01:28Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index: 0000000000000000
+2019-03-07T20:01:36Z LoadBlockIndexDB: last block file = 1553
+2019-03-07T20:01:36Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=29, size=37511398, heights=566051...566079, time=2019-03-07...2019-03-07)
+2019-03-07T20:01:36Z Checking all blk files are present...
+2019-03-07T20:01:37Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate
+2019-03-07T20:01:38Z Opened LevelDB successfully
+2019-03-07T20:01:38Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate: 463a1504f1021ee0
+2019-03-07T20:01:38Z Loaded best chain: hashBestChain=0000000000000000001d00fb0cf4e8cd0bfdf1062f04463d5a9b484c2b1c0a4a height=566079 date=2019-03-07T19:28:57Z progress=0.999981
+2019-03-07T20:01:38Z init message: Rewinding blocks...
+2019-03-07T20:01:42Z init message: Проверка блоков...
+2019-03-07T20:01:42Z Verifying last 6 blocks at level 3
+2019-03-07T20:01:42Z [0%]...[16%]...[33%]...[50%]...[66%]...[83%]...[99%]...[DONE].
+2019-03-07T20:02:32Z No coin database inconsistencies in last 6 blocks (16339 transactions)
+2019-03-07T20:02:32Z  block index           65038ms
+2019-03-07T20:02:32Z init message: Выполняется загрузка кошелька...
+2019-03-07T20:02:32Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-07T20:02:32Z [default wallet] nFileVersion = 179900
+2019-03-07T20:02:32Z [default wallet] Keys: 0 plaintext, 4003 encrypted, 4003 w/ metadata, 4003 total. Unknown wallet records: 0
+2019-03-07T20:02:33Z [default wallet] Wallet completed loading in             267ms
+2019-03-07T20:02:33Z [default wallet] setKeyPool.size() = 1999
+2019-03-07T20:02:33Z [default wallet] mapWallet.size() = 2
+2019-03-07T20:02:33Z [default wallet] mapAddressBook.size() = 3
+2019-03-07T20:02:33Z mapBlockIndex.size() = 566099
+2019-03-07T20:02:33Z nBestHeight = 566079
+2019-03-07T20:02:33Z torcontrol thread start
+2019-03-07T20:02:33Z Bound to [::]:8333
+2019-03-07T20:02:33Z Bound to 0.0.0.0:8333
+2019-03-07T20:02:33Z init message: Выполняется загрузка P2P-адресов...
+2019-03-07T20:02:33Z Leaving InitialBlockDownload (latching to false)
+2019-03-07T20:02:34Z Loaded 71586 addresses from peers.dat  1075ms
+2019-03-07T20:02:34Z init message: Запуск сетевых потоков...
+2019-03-07T20:02:34Z net thread start
+2019-03-07T20:02:34Z dnsseed thread start
+2019-03-07T20:02:34Z addcon thread start
+2019-03-07T20:02:34Z msghand thread start
+2019-03-07T20:02:34Z init message: Загрузка завершена
+2019-03-07T20:02:34Z opencon thread start
+2019-03-07T20:02:34Z GUI: Platform customization: "other"
+2019-03-07T20:02:34Z GUI: PaymentServer::LoadRootCAs: Loaded  134  root certificates
+2019-03-07T20:02:35Z New outbound peer connected: version: 70015, blocks=566086, peer=0
+2019-03-07T20:02:36Z New outbound peer connected: version: 70015, blocks=566086, peer=1
+2019-03-07T20:02:37Z New outbound peer connected: version: 70015, blocks=566086, peer=2
+2019-03-07T20:02:45Z P2P peers available. Skipped DNS seeding.
+2019-03-07T20:02:45Z dnsseed thread exit
+2019-03-07T20:03:25Z UpdateTip: new best=00000000000000000010e34370fcaaad97aa89454c61a2e1fc5d2355374007a2 height=566080 version=0x20000000 log2_work=90.417885 tx=389865672 date='2019-03-07T19:33:49Z' progress=0.999983 cache=1.3MiB(9898txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:04:10Z Pre-allocating up to position 0x600000 in rev01553.dat
+2019-03-07T20:04:10Z UpdateTip: new best=00000000000000000010a5cf40b4e2756bb312dc15cb0efa58e7c1af2a115f22 height=566081 version=0x3fff0000 log2_work=90.417908 tx=389868074 date='2019-03-07T19:38:16Z' progress=0.999985 cache=2.6MiB(19661txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:04:10Z GUI: Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt.
+You must not let any exception whatsoever propagate through Qt code.
+If that is not possible, in Qt 5 you must at least reimplement
+QCoreApplication::notify() and catch all exceptions there.
+
+2019-03-07T20:04:10Z 
+
+************************
+EXCEPTION: N5boost10filesystem16filesystem_errorE       
+filesystem::recursive_directory_iterator directory error: Отказано в доступе       
+bitcoin in Runaway exception       
+
+2019-03-07T20:10:04Z 
+
+
+
+
+2019-03-07T20:10:04Z Bitcoin Core version v0.18.0rc1 (release build)
+2019-03-07T20:10:05Z Assuming ancestors of block 0000000000000000000f1c54590ee18d15ec70e68c8cd4cfbadb1b4f11697eee have valid signatures.
+2019-03-07T20:10:05Z Setting nMinimumChainWork=0000000000000000000000000000000000000000051dc8b82f450202ecb3d471
+2019-03-07T20:10:05Z Using the 'sse4(1way),sse41(4way)' SHA256 implementation
+2019-03-07T20:10:05Z Default data directory /home/q/.bitcoin
+2019-03-07T20:10:05Z Using data directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:10:05Z Config file: /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/bitcoin.conf
+2019-03-07T20:10:05Z Using at most 125 automatic connections (1024 file descriptors available)
+2019-03-07T20:10:05Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2019-03-07T20:10:05Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2019-03-07T20:10:05Z Using 6 threads for script verification
+2019-03-07T20:10:05Z Using wallet directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:10:05Z init message: Verifying wallet(s)...
+2019-03-07T20:10:05Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2019-03-07T20:10:05Z Using wallet /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:10:05Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-07T20:10:05Z scheduler thread start
+2019-03-07T20:10:05Z init message: Загрузка черного списка...
+2019-03-07T20:10:05Z Cache configuration:
+2019-03-07T20:10:05Z * Using 2.0 MiB for block index database
+2019-03-07T20:10:05Z * Using 8.0 MiB for chain state database
+2019-03-07T20:10:05Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2019-03-07T20:10:05Z init message: Загрузка индекса блоков...
+2019-03-07T20:10:05Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index
+2019-03-07T20:10:05Z Opened LevelDB successfully
+2019-03-07T20:10:05Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index: 0000000000000000
+2019-03-07T20:10:12Z LoadBlockIndexDB: last block file = 1553
+2019-03-07T20:10:12Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=29, size=37511398, heights=566051...566079, time=2019-03-07...2019-03-07)
+2019-03-07T20:10:12Z Checking all blk files are present...
+2019-03-07T20:10:12Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate
+2019-03-07T20:10:13Z Opened LevelDB successfully
+2019-03-07T20:10:13Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate: 463a1504f1021ee0
+2019-03-07T20:10:13Z Loaded best chain: hashBestChain=0000000000000000001d00fb0cf4e8cd0bfdf1062f04463d5a9b484c2b1c0a4a height=566079 date=2019-03-07T19:28:57Z progress=0.999977
+2019-03-07T20:10:13Z init message: Rewinding blocks...
+2019-03-07T20:10:16Z init message: Проверка блоков...
+2019-03-07T20:10:16Z Verifying last 6 blocks at level 3
+2019-03-07T20:10:16Z [0%]...[16%]...[33%]...[50%]...[66%]...[83%]...[99%]...[DONE].
+2019-03-07T20:10:47Z No coin database inconsistencies in last 6 blocks (16339 transactions)
+2019-03-07T20:10:47Z  block index           41776ms
+2019-03-07T20:10:47Z init message: Выполняется загрузка кошелька...
+2019-03-07T20:10:47Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-07T20:10:47Z [default wallet] nFileVersion = 180000
+2019-03-07T20:10:47Z [default wallet] Keys: 0 plaintext, 4003 encrypted, 4003 w/ metadata, 4003 total. Unknown wallet records: 0
+2019-03-07T20:10:47Z [default wallet] Wallet completed loading in             336ms
+2019-03-07T20:10:47Z [default wallet] setKeyPool.size() = 1999
+2019-03-07T20:10:47Z [default wallet] mapWallet.size() = 2
+2019-03-07T20:10:47Z [default wallet] mapAddressBook.size() = 3
+2019-03-07T20:10:47Z mapBlockIndex.size() = 566099
+2019-03-07T20:10:47Z nBestHeight = 566079
+2019-03-07T20:10:47Z torcontrol thread start
+2019-03-07T20:10:47Z Bound to [::]:8333
+2019-03-07T20:10:47Z Bound to 0.0.0.0:8333
+2019-03-07T20:10:47Z init message: Выполняется загрузка P2P-адресов...
+2019-03-07T20:10:47Z Leaving InitialBlockDownload (latching to false)
+2019-03-07T20:10:48Z Loaded 71586 addresses from peers.dat  553ms
+2019-03-07T20:10:48Z init message: Запуск сетевых потоков...
+2019-03-07T20:10:48Z net thread start
+2019-03-07T20:10:48Z addcon thread start
+2019-03-07T20:10:48Z dnsseed thread start
+2019-03-07T20:10:48Z init message: Загрузка завершена
+2019-03-07T20:10:48Z opencon thread start
+2019-03-07T20:10:48Z msghand thread start
+2019-03-07T20:10:48Z GUI: Platform customization: "other"
+2019-03-07T20:10:48Z GUI: PaymentServer::LoadRootCAs: Loaded  134  root certificates
+2019-03-07T20:10:48Z New outbound peer connected: version: 70015, blocks=566086, peer=1
+2019-03-07T20:10:59Z Loading addresses from DNS seeds (could take a while)
+2019-03-07T20:11:01Z 280 addresses found from DNS seeds
+2019-03-07T20:11:01Z dnsseed thread exit
+2019-03-07T20:11:05Z UpdateTip: new best=00000000000000000010e34370fcaaad97aa89454c61a2e1fc5d2355374007a2 height=566080 version=0x20000000 log2_work=90.417885 tx=389865672 date='2019-03-07T19:33:49Z' progress=0.999979 cache=1.3MiB(9898txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:11:22Z Pre-allocating up to position 0x600000 in rev01553.dat
+2019-03-07T20:11:22Z UpdateTip: new best=00000000000000000010a5cf40b4e2756bb312dc15cb0efa58e7c1af2a115f22 height=566081 version=0x3fff0000 log2_work=90.417908 tx=389868074 date='2019-03-07T19:38:16Z' progress=0.999981 cache=2.6MiB(19661txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:11:57Z UpdateTip: new best=0000000000000000000302c9ad1384a777e1810a8c2a6f0e99166d9b8b07b48e height=566082 version=0x20000000 log2_work=90.417931 tx=389870796 date='2019-03-07T19:40:07Z' progress=0.999982 cache=3.9MiB(28622txo) warning='36 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:11:57Z UpdateTip: new best=000000000000000000073d4ee80ab0b286e627b512f6670d5071a943db1052fd height=566083 version=0x20800000 log2_work=90.417953 tx=389870797 date='2019-03-07T19:56:07Z' progress=0.999991 cache=3.9MiB(28623txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:11:57Z New outbound peer connected: version: 70015, blocks=566086, peer=2
+2019-03-07T20:12:29Z UpdateTip: new best=00000000000000000005e6177ae2c7f6c9a38ee8298f2e68c3169d803ec59bfe height=566084 version=0x20c00000 log2_work=90.417976 tx=389873621 date='2019-03-07T19:49:39Z' progress=0.999987 cache=5.0MiB(37811txo) warning='38 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:12:52Z UpdateTip: new best=00000000000000000009653c0f983b02589dec8690bc345dccdff35308b07246 height=566085 version=0x20000000 log2_work=90.417999 tx=389876046 date='2019-03-07T19:54:04Z' progress=0.999989 cache=6.1MiB(46457txo) warning='38 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:13:18Z UpdateTip: new best=0000000000000000002d6df9b9f1ac997a5e95bc24b6d2a13215fccdf8570c2c height=566086 version=0x20400000 log2_work=90.418022 tx=389877111 date='2019-03-07T19:54:29Z' progress=0.999989 cache=7.7MiB(56231txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:13:18Z New outbound peer connected: version: 70015, blocks=566086, peer=18
+2019-03-07T20:13:19Z New outbound peer connected: version: 70015, blocks=566086, peer=20
+2019-03-07T20:13:30Z New outbound peer connected: version: 70015, blocks=566086, peer=29
+2019-03-07T20:13:31Z New outbound peer connected: version: 70015, blocks=566086, peer=30
+2019-03-07T20:13:37Z New outbound peer connected: version: 70015, blocks=566086, peer=31
+2019-03-07T20:13:45Z New outbound peer connected: version: 70015, blocks=566086, peer=33
+2019-03-07T20:14:12Z New outbound peer connected: version: 70015, blocks=501698, peer=32
+2019-03-07T20:15:10Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:15:49Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:15:57Z Imported mempool transactions from disk: 8737 succeeded, 8133 failed, 0 expired, 0 already there
+2019-03-07T20:16:48Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:19:30Z tor: Thread interrupt
+2019-03-07T20:19:30Z Shutdown: In progress...
+2019-03-07T20:19:30Z torcontrol thread exit
+2019-03-07T20:19:30Z addcon thread exit
+2019-03-07T20:19:30Z msghand thread exit
+2019-03-07T20:19:30Z opencon thread exit
+2019-03-07T20:19:30Z net thread exit
+2019-03-07T20:19:31Z scheduler thread interrupt
+2019-03-07T20:19:31Z Dumped mempool: 0.013373s to copy, 0.244485s to dump
+2019-03-07T20:19:32Z [default wallet] Releasing wallet
+2019-03-07T20:19:32Z Shutdown: done
+2019-03-07T20:19:35Z 
+
+
+
+
+2019-03-07T20:19:35Z Bitcoin Core version v0.18.0rc1 (release build)
+2019-03-07T20:19:35Z Assuming ancestors of block 0000000000000000000f1c54590ee18d15ec70e68c8cd4cfbadb1b4f11697eee have valid signatures.
+2019-03-07T20:19:35Z Setting nMinimumChainWork=0000000000000000000000000000000000000000051dc8b82f450202ecb3d471
+2019-03-07T20:19:35Z Using the 'sse4(1way),sse41(4way)' SHA256 implementation
+2019-03-07T20:19:35Z Default data directory /home/q/.bitcoin
+2019-03-07T20:19:35Z Using data directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:19:35Z Config file: /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/bitcoin.conf
+2019-03-07T20:19:35Z Using at most 125 automatic connections (1024 file descriptors available)
+2019-03-07T20:19:35Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2019-03-07T20:19:35Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2019-03-07T20:19:35Z Using 6 threads for script verification
+2019-03-07T20:19:35Z Using wallet directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:19:35Z init message: Verifying wallet(s)...
+2019-03-07T20:19:35Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2019-03-07T20:19:35Z Using wallet /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-07T20:19:35Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-07T20:19:35Z scheduler thread start
+2019-03-07T20:19:35Z init message: Загрузка черного списка...
+2019-03-07T20:19:35Z Cache configuration:
+2019-03-07T20:19:35Z * Using 2.0 MiB for block index database
+2019-03-07T20:19:35Z * Using 8.0 MiB for chain state database
+2019-03-07T20:19:35Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2019-03-07T20:19:35Z init message: Загрузка индекса блоков...
+2019-03-07T20:19:35Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index
+2019-03-07T20:19:35Z Opened LevelDB successfully
+2019-03-07T20:19:35Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index: 0000000000000000
+2019-03-07T20:19:42Z LoadBlockIndexDB: last block file = 1553
+2019-03-07T20:19:42Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=36, size=44927532, heights=566051...566086, time=2019-03-07...2019-03-07)
+2019-03-07T20:19:42Z Checking all blk files are present...
+2019-03-07T20:19:42Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate
+2019-03-07T20:19:43Z Opened LevelDB successfully
+2019-03-07T20:19:43Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate: 463a1504f1021ee0
+2019-03-07T20:19:43Z Loaded best chain: hashBestChain=0000000000000000002d6df9b9f1ac997a5e95bc24b6d2a13215fccdf8570c2c height=566086 date=2019-03-07T19:54:29Z progress=0.999986
+2019-03-07T20:19:43Z init message: Rewinding blocks...
+2019-03-07T20:19:46Z init message: Проверка блоков...
+2019-03-07T20:19:46Z Verifying last 6 blocks at level 3
+2019-03-07T20:19:46Z [0%]...[16%]...[33%]...[50%]...[66%]...[83%]...[99%]...[DONE].
+2019-03-07T20:19:47Z No coin database inconsistencies in last 6 blocks (11439 transactions)
+2019-03-07T20:19:47Z  block index           12159ms
+2019-03-07T20:19:47Z init message: Выполняется загрузка кошелька...
+2019-03-07T20:19:47Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-07T20:19:48Z [default wallet] nFileVersion = 180000
+2019-03-07T20:19:48Z [default wallet] Keys: 0 plaintext, 4003 encrypted, 4003 w/ metadata, 4003 total. Unknown wallet records: 0
+2019-03-07T20:19:48Z [default wallet] Wallet completed loading in             215ms
+2019-03-07T20:19:48Z [default wallet] setKeyPool.size() = 1999
+2019-03-07T20:19:48Z [default wallet] mapWallet.size() = 2
+2019-03-07T20:19:48Z [default wallet] mapAddressBook.size() = 3
+2019-03-07T20:19:48Z mapBlockIndex.size() = 566106
+2019-03-07T20:19:48Z nBestHeight = 566086
+2019-03-07T20:19:48Z Bound to [::]:8333
+2019-03-07T20:19:48Z Bound to 0.0.0.0:8333
+2019-03-07T20:19:48Z init message: Выполняется загрузка P2P-адресов...
+2019-03-07T20:19:48Z torcontrol thread start
+2019-03-07T20:19:48Z Leaving InitialBlockDownload (latching to false)
+2019-03-07T20:19:48Z Loaded 71572 addresses from peers.dat  682ms
+2019-03-07T20:19:48Z init message: Запуск сетевых потоков...
+2019-03-07T20:19:48Z init message: Загрузка завершена
+2019-03-07T20:19:48Z addcon thread start
+2019-03-07T20:19:48Z net thread start
+2019-03-07T20:19:48Z dnsseed thread start
+2019-03-07T20:19:48Z GUI: Platform customization: "other"
+2019-03-07T20:19:48Z msghand thread start
+2019-03-07T20:19:48Z opencon thread start
+2019-03-07T20:19:48Z GUI: PaymentServer::LoadRootCAs: Loaded  134  root certificates
+2019-03-07T20:19:59Z Loading addresses from DNS seeds (could take a while)
+2019-03-07T20:20:01Z 280 addresses found from DNS seeds
+2019-03-07T20:20:01Z dnsseed thread exit
+2019-03-07T20:20:11Z Imported mempool transactions from disk: 9346 succeeded, 0 failed, 0 expired, 0 already there
+2019-03-07T20:20:16Z New outbound peer connected: version: 70015, blocks=566086, peer=7
+2019-03-07T20:20:17Z New outbound peer connected: version: 70015, blocks=566086, peer=8
+2019-03-07T20:20:24Z New outbound peer connected: version: 70015, blocks=566086, peer=9
+2019-03-07T20:20:51Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:20:53Z New outbound peer connected: version: 70015, blocks=566086, peer=16
+2019-03-07T20:20:54Z New outbound peer connected: version: 70015, blocks=566086, peer=17
+2019-03-07T20:21:01Z New outbound peer connected: version: 70015, blocks=566086, peer=18
+2019-03-07T20:21:18Z New outbound peer connected: version: 70015, blocks=566086, peer=20
+2019-03-07T20:21:19Z New outbound peer connected: version: 70015, blocks=566086, peer=21
+2019-03-07T20:23:11Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:26:19Z UpdateTip: new best=00000000000000000011ed279e30b82e6e541bda846b8731541f1e1c15a3023d height=566087 version=0x20400000 log2_work=90.418044 tx=389880444 date='2019-03-07T20:26:04Z' progress=1.000000 cache=5.4MiB(40833txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:27:22Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:29:33Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:32:36Z Pre-allocating up to position 0x700000 in rev01553.dat
+2019-03-07T20:32:36Z UpdateTip: new best=0000000000000000001a135b6fe6cd2d0c393f182dcdb78484a3db9de6542f07 height=566088 version=0x20000000 log2_work=90.418067 tx=389883350 date='2019-03-07T20:32:22Z' progress=1.000000 cache=6.6MiB(50868txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:34:30Z UpdateTip: new best=0000000000000000002ddd4ab9a0764a3d2a138dd1233791961beacf69607e35 height=566089 version=0x2000e000 log2_work=90.41809 tx=389886246 date='2019-03-07T20:34:21Z' progress=1.000000 cache=7.7MiB(56503txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:36:00Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:36:45Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:39:29Z UpdateTip: new best=00000000000000000010f84d736a087d49482fac244e9ec49bdbb477766041e9 height=566090 version=0x3fffe000 log2_work=90.418113 tx=389889704 date='2019-03-07T20:39:34Z' progress=1.000000 cache=8.5MiB(62793txo) warning='42 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:43:09Z Pre-allocating up to position 0x4000000 in blk01553.dat
+2019-03-07T20:43:09Z UpdateTip: new best=00000000000000000005639aa533713cdac99a2a7f7b27edcba6692ec6f92fa8 height=566091 version=0x20000000 log2_work=90.418135 tx=389891255 date='2019-03-07T20:43:11Z' progress=1.000000 cache=8.9MiB(65752txo) warning='42 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:43:53Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:44:21Z UpdateTip: new best=000000000000000000250c4b6909c0befc321610d4cd0229ad08ad45a3335eb4 height=566092 version=0x20000000 log2_work=90.418158 tx=389892333 date='2019-03-07T20:44:05Z' progress=1.000000 cache=9.1MiB(67574txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:45:54Z UpdateTip: new best=0000000000000000002339403dedc19ae93f6f3912d364b42f568afa1ba7cfec height=566093 version=0x20000000 log2_work=90.418181 tx=389892941 date='2019-03-07T20:45:11Z' progress=1.000000 cache=9.3MiB(69048txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T20:49:49Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T20:51:16Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T21:06:20Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T21:12:19Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T21:12:40Z ERROR: AcceptBlockHeader: Consensus::ContextualCheckBlockHeader: 000000000000001daed8bac77bdf571441649e51732e91bec984cf97a39005a1, bad-diffbits, incorrect proof of work (code 16)
+2019-03-07T21:17:26Z UpdateTip: new best=0000000000000000000c9ed898ad11d40b030b2e384879da8c70826b2e533b09 height=566094 version=0x20000000 log2_work=90.418203 tx=389896283 date='2019-03-07T21:16:46Z' progress=1.000000 cache=10.9MiB(82565txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T21:20:07Z ERROR: AcceptBlockHeader: Consensus::CheckBlockHeader: 0fd7ab36246daf61802e10a0316cc2b0f17a1d6404bfdd53878ba34e158b4680, high-hash, proof of work failed (code 16)
+2019-03-07T21:21:57Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T21:23:58Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T21:24:49Z ping timeout: 1200.003336s
+2019-03-07T21:32:10Z ping timeout: 1200.034858s
+2019-03-07T21:33:06Z Pre-allocating up to position 0x800000 in rev01553.dat
+2019-03-07T21:33:06Z UpdateTip: new best=000000000000000000020b708d3a3ce0911628023319a816a5dad2ad19652bfc height=566095 version=0x20000000 log2_work=90.418226 tx=389899198 date='2019-03-07T21:32:38Z' progress=1.000000 cache=11.8MiB(89676txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T21:33:47Z ping timeout: 1200.023309s
+2019-03-07T21:34:54Z UpdateTip: new best=00000000000000000015efd5221becd2eafdf54ae5917cbebfd8bd637fd092cd height=566096 version=0x20c00000 log2_work=90.418249 tx=389901493 date='2019-03-07T21:34:49Z' progress=1.000000 cache=12.2MiB(92894txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T21:37:26Z socket receive timeout: 1201s
+2019-03-07T21:45:47Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T21:47:42Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T21:52:53Z ERROR: AcceptBlockHeader: Consensus::CheckBlockHeader: 0fd7ab36246daf61802e10a0316cc2b0f17a1d6404bfdd53878ba34e158b4680, high-hash, proof of work failed (code 16)
+2019-03-07T21:56:21Z socket send error Обрыв канала (32)
+2019-03-07T21:56:41Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:03:14Z socket recv error Время ожидания соединения истекло (110)
+2019-03-07T22:04:51Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:05:27Z Potential stale tip detected, will try using extra outbound peer (last tip update: 1833 seconds ago)
+2019-03-07T22:05:28Z New outbound peer connected: version: 70015, blocks=566096, peer=505
+2019-03-07T22:07:20Z ping timeout: 1200.046592s
+2019-03-07T22:07:53Z UpdateTip: new best=0000000000000000002181fb6639e6840025ca41be6f35861ccee8d9f8d81ad8 height=566097 version=0x20000000 log2_work=90.418272 tx=389904997 date='2019-03-07T22:07:40Z' progress=1.000000 cache=13.6MiB(104168txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T22:08:21Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:24:21Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:25:50Z ping timeout: 1200.028010s
+2019-03-07T22:29:44Z socket send error Соединение разорвано другой стороной (104)
+2019-03-07T22:30:50Z UpdateTip: new best=0000000000000000000e8e8f0e2aa92f0492c9516e0b399abfbb9783d05f02f8 height=566098 version=0x20000000 log2_work=90.418294 tx=389907856 date='2019-03-07T22:30:30Z' progress=1.000000 cache=15.5MiB(113472txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T22:39:27Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:39:45Z ERROR: AcceptBlockHeader: Consensus::ContextualCheckBlockHeader: 000000000000001daed8bac77bdf571441649e51732e91bec984cf97a39005a1, bad-diffbits, incorrect proof of work (code 16)
+2019-03-07T22:46:15Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:47:19Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:55:11Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T22:55:37Z socket send error Соединение разорвано другой стороной (104)
+2019-03-07T22:55:42Z ping timeout: 1200.039430s
+2019-03-07T22:58:21Z UpdateTip: new best=0000000000000000001ac032ec96095ee8ce05f60411e6bce2913f2423bcf208 height=566099 version=0x20c00000 log2_work=90.418317 tx=389910728 date='2019-03-07T22:57:29Z' progress=1.000000 cache=16.6MiB(122038txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T22:59:02Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:03:04Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:03:36Z socket recv error Время ожидания соединения истекло (110)
+2019-03-07T23:12:03Z UpdateTip: new best=000000000000000000266533cc06dfe097b08130e6b01686f7e1fce7841f6d55 height=566100 version=0x3fffe000 log2_work=90.41834 tx=389913153 date='2019-03-07T23:11:55Z' progress=1.000000 cache=17.4MiB(128312txo) warning='42 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T23:18:13Z Pre-allocating up to position 0x900000 in rev01553.dat
+2019-03-07T23:18:13Z UpdateTip: new best=00000000000000000001df62fa1c01a747dd7e6325120463b94d6b4e84f5b7b3 height=566101 version=0x20000000 log2_work=90.418363 tx=389916318 date='2019-03-07T23:17:48Z' progress=1.000000 cache=17.9MiB(132684txo) warning='42 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T23:22:39Z UpdateTip: new best=00000000000000000025a4cd58818979108928cd87f16cb64af8c2af17a329f0 height=566102 version=0x20400000 log2_work=90.418385 tx=389919132 date='2019-03-07T23:22:24Z' progress=1.000000 cache=18.4MiB(136429txo) warning='43 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T23:23:27Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:26:10Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:28:20Z ping timeout: 1200.019583s
+2019-03-07T23:28:54Z socket recv error Время ожидания соединения истекло (110)
+2019-03-07T23:30:59Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:35:08Z UpdateTip: new best=00000000000000000021bb2e9f717385d570381cb54d80d55052b0aa09c17c6c height=566103 version=0x20800000 log2_work=90.418408 tx=389921642 date='2019-03-07T23:34:20Z' progress=1.000000 cache=19.0MiB(141525txo) warning='43 из последних 100 блоков имеют неожиданную версию'
+2019-03-07T23:39:18Z ping timeout: 1200.004557s
+2019-03-07T23:43:49Z ping timeout: 1200.048277s
+2019-03-07T23:44:12Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:44:29Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:44:43Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:45:50Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:55:21Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:56:32Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-07T23:59:13Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T00:00:00Z Pre-allocating up to position 0x5000000 in blk01553.dat
+2019-03-08T00:00:01Z UpdateTip: new best=00000000000000000005deaf3b6ec665cd2d79832799fd15f9847b1b4e5c22ca height=566104 version=0x20000000 log2_work=90.418431 tx=389924834 date='2019-03-07T23:59:41Z' progress=1.000000 cache=19.9MiB(149261txo) warning='42 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:01:21Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:06:12Z UpdateTip: new best=0000000000000000000538d5a824f2d615df38d126ca05b4c40492014095992c height=566105 version=0x20000000 log2_work=90.418454 tx=389926079 date='2019-03-08T00:05:51Z' progress=1.000000 cache=20.4MiB(153159txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:09:43Z UpdateTip: new best=0000000000000000002bed01f21a9a11185529c777c3195128d383fa3cffe4a6 height=566106 version=0x20000000 log2_work=90.418476 tx=389928790 date='2019-03-08T00:09:16Z' progress=1.000000 cache=21.0MiB(157847txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:11:30Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T00:13:04Z Pre-allocating up to position 0xa00000 in rev01553.dat
+2019-03-08T00:13:04Z UpdateTip: new best=0000000000000000001e918cd7c6645dc6c6ce0686dd9226cb8b7f18a9119c79 height=566107 version=0x20000000 log2_work=90.418499 tx=389930741 date='2019-03-08T00:13:03Z' progress=1.000000 cache=21.4MiB(161439txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:15:28Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:15:50Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:20:32Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:27:37Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:29:47Z UpdateTip: new best=0000000000000000001e73297f4a207b3d5ecbf9bce35207383befa1abfc3f88 height=566108 version=0x20800000 log2_work=90.418522 tx=389933522 date='2019-03-08T00:29:20Z' progress=1.000000 cache=22.1MiB(166907txo) warning='42 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:31:03Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T00:33:38Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:34:39Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:37:00Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:37:43Z UpdateTip: new best=0000000000000000002b27b3cd7ff2bed18bd6d8ffa6e643641afa9e4eaf1c34 height=566109 version=0x20000000 log2_work=90.418545 tx=389935812 date='2019-03-08T00:37:17Z' progress=1.000000 cache=22.6MiB(171376txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:38:51Z UpdateTip: new best=00000000000000000020779f9259553fc6db26a99965fb511c4f707294bf31cb height=566110 version=0x20000000 log2_work=90.418567 tx=389936587 date='2019-03-08T00:38:33Z' progress=1.000000 cache=22.8MiB(172886txo) warning='41 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:41:34Z UpdateTip: new best=0000000000000000001d7ff73afddb1ddf2fecddc8471023764db4e9b2921f88 height=566111 version=0x20000000 log2_work=90.41859 tx=389937100 date='2019-03-08T00:41:14Z' progress=1.000000 cache=23.0MiB(174072txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:50:11Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:51:35Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:52:59Z UpdateTip: new best=0000000000000000001c1dd07cde27d4d97a1f7c3f114d34a59e8bb248d532bc height=566112 version=0x20000000 log2_work=90.418613 tx=389939144 date='2019-03-08T00:52:44Z' progress=1.000000 cache=23.5MiB(178561txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T00:54:32Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:55:05Z ping timeout: 1200.005486s
+2019-03-08T00:58:04Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T00:58:41Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:00:17Z UpdateTip: new best=0000000000000000001859d11e05ef2c80be8daf042cf47c7f3c3917292c8de6 height=566113 version=0x20000000 log2_work=90.418636 tx=389940551 date='2019-03-08T01:00:01Z' progress=1.000000 cache=25.3MiB(193370txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:01:23Z UpdateTip: new best=0000000000000000000d658a2ee7617d41af3870d2b463715410f772bcd7da36 height=566114 version=0x20000000 log2_work=90.418658 tx=389940848 date='2019-03-08T01:01:17Z' progress=1.000000 cache=25.5MiB(194456txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:03:38Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:08:00Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:08:42Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:09:24Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:23:23Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:25:30Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:26:08Z Pre-allocating up to position 0xb00000 in rev01553.dat
+2019-03-08T01:26:08Z UpdateTip: new best=00000000000000000020f1ec4b9da81f54f7db3ea2737abe23caa7c2abad0d63 height=566115 version=0x20400000 log2_work=90.418681 tx=389943822 date='2019-03-08T01:25:48Z' progress=1.000000 cache=26.3MiB(201245txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:27:25Z UpdateTip: new best=000000000000000000152d8292b0a84accc9f1e65778b41c71d426a94e2a69ab height=566116 version=0x20000000 log2_work=90.418704 tx=389945028 date='2019-03-08T01:26:49Z' progress=1.000000 cache=26.4MiB(202387txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:29:59Z UpdateTip: new best=00000000000000000004c884eda220b764d6f1dca7e9236883fc6af36904f376 height=566117 version=0x20000000 log2_work=90.418727 tx=389945639 date='2019-03-08T01:29:42Z' progress=1.000000 cache=26.7MiB(204371txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:30:22Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:30:52Z UpdateTip: new best=0000000000000000000b5acd747ba1f0cac7904386c654ec4532543e2be476cf height=566118 version=0x20000000 log2_work=90.418749 tx=389945821 date='2019-03-08T01:30:51Z' progress=1.000000 cache=26.8MiB(205178txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:31:10Z ping timeout: 1200.043537s
+2019-03-08T01:33:58Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:36:37Z UpdateTip: new best=00000000000000000018cffa9fcb32c78045a5bf76f5a09834fcb4625eabcd69 height=566119 version=0x20400000 log2_work=90.418772 tx=389946999 date='2019-03-08T01:36:15Z' progress=1.000000 cache=27.0MiB(207006txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:40:14Z socket receive timeout: 1201s
+2019-03-08T01:43:37Z UpdateTip: new best=0000000000000000002946191950520732d085a2cfd81324629a4ededfa6580b height=566120 version=0x20000000 log2_work=90.418795 tx=389948103 date='2019-03-08T01:43:10Z' progress=1.000000 cache=27.3MiB(209559txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:44:21Z UpdateTip: new best=0000000000000000000ffe41f26212fd7b6e143a30a58bbe4a864b4a4be826bd height=566121 version=0x20000000 log2_work=90.418817 tx=389948330 date='2019-03-08T01:44:04Z' progress=1.000000 cache=27.4MiB(210435txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:44:45Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:44:57Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:46:38Z UpdateTip: new best=000000000000000000030015bde77b1ca12ff3f760182a55ff1f5e6518c97474 height=566122 version=0x20c00000 log2_work=90.41884 tx=389948858 date='2019-03-08T01:46:22Z' progress=1.000000 cache=27.5MiB(211343txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:46:49Z UpdateTip: new best=0000000000000000000ea53537589345ef633a33ecd149cb3e1566358efba67b height=566123 version=0x20000000 log2_work=90.418863 tx=389948914 date='2019-03-08T01:46:39Z' progress=1.000000 cache=27.5MiB(211190txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:47:08Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T01:52:57Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T01:55:02Z UpdateTip: new best=00000000000000000002c0537f0e7dd213b731bb83a3759aa3c92683b57493c6 height=566124 version=0x20000000 log2_work=90.418886 tx=389950368 date='2019-03-08T01:54:19Z' progress=1.000000 cache=27.9MiB(214357txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T01:55:45Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T01:56:55Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:00:41Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:02:29Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:03:11Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:06:02Z UpdateTip: new best=0000000000000000001f7e233071f05d2a5d7049172588a1bee2b1ebbc26ab0f height=566125 version=0x3fff0000 log2_work=90.418908 tx=389952506 date='2019-03-08T02:06:09Z' progress=1.000000 cache=28.3MiB(217640txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T02:14:56Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:15:06Z UpdateTip: new best=0000000000000000002272b1ef6d5f3f329ae4a407c9d60f20c885ea95bc4612 height=566126 version=0x20800000 log2_work=90.418931 tx=389954390 date='2019-03-08T02:14:45Z' progress=1.000000 cache=30.6MiB(222289txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T02:16:30Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:17:09Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:20:45Z Pre-allocating up to position 0x6000000 in blk01553.dat
+2019-03-08T02:20:45Z UpdateTip: new best=00000000000000000025d28d5887d3ea2894e6f1b02a79acbb803d64464c0363 height=566127 version=0x20000000 log2_work=90.418954 tx=389955318 date='2019-03-08T02:20:06Z' progress=1.000000 cache=30.9MiB(225163txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T02:23:49Z socket send error Соединение разорвано другой стороной (104)
+2019-03-08T02:24:38Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:26:35Z UpdateTip: new best=0000000000000000000d9b4d9411342582e8064e8b6fd117966460abe9dc274a height=566128 version=0x20000000 log2_work=90.418977 tx=389956416 date='2019-03-08T02:26:14Z' progress=1.000000 cache=31.7MiB(231420txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T02:31:09Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:34:30Z ERROR: AcceptBlockHeader: Consensus::CheckBlockHeader: 0fd7ab36246daf61802e10a0316cc2b0f17a1d6404bfdd53878ba34e158b4680, high-hash, proof of work failed (code 16)
+2019-03-08T02:42:54Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:46:51Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:49:34Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T02:51:33Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T02:53:51Z UpdateTip: new best=0000000000000000000dc86561aa0a65d21f0308d7f51632f41d5fefcbd5ae3b height=566129 version=0x20000000 log2_work=90.418999 tx=389959336 date='2019-03-08T02:53:35Z' progress=1.000000 cache=32.6MiB(238794txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T02:57:06Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:57:48Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T02:58:30Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:02:04Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:02:17Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:03:22Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:05:47Z Pre-allocating up to position 0xc00000 in rev01553.dat
+2019-03-08T03:05:47Z UpdateTip: new best=0000000000000000000b83e64fd658d627ecbd9b54d8d615573fd39cf9230e56 height=566130 version=0x20000000 log2_work=90.419022 tx=389961975 date='2019-03-08T03:05:49Z' progress=1.000000 cache=33.2MiB(243326txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:08:49Z UpdateTip: new best=0000000000000000002cb4a2e5b3ba0b76efb1f701aac6db13aeb2dcd6d9389a height=566131 version=0x3fff0000 log2_work=90.419045 tx=389963450 date='2019-03-08T03:09:13Z' progress=1.000000 cache=33.3MiB(244211txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:09:03Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:09:23Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:11:52Z UpdateTip: new best=0000000000000000000528aa89b987bd5ed693a4f7dd52d61ca913d1b4454cde height=566132 version=0x20000000 log2_work=90.419068 tx=389964025 date='2019-03-08T03:11:21Z' progress=1.000000 cache=33.4MiB(244889txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:15:16Z socket send error Обрыв канала (32)
+2019-03-08T03:17:04Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:17:31Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:19:56Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:24:13Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:24:43Z UpdateTip: new best=00000000000000000007379fc3c678a1e77b870f97391365a7968292b0e474cb height=566133 version=0x20000000 log2_work=90.41909 tx=389966218 date='2019-03-08T03:24:23Z' progress=1.000000 cache=33.7MiB(247994txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:25:08Z UpdateTip: new best=0000000000000000000cbc01905b6274847a3d5e8ad62e8c05f05dea428a27be height=566134 version=0x2fff4000 log2_work=90.419113 tx=389966338 date='2019-03-08T03:24:44Z' progress=1.000000 cache=33.8MiB(248184txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:26:43Z UpdateTip: new best=000000000000000000086bec1e38944e387b2db9960a8008b6b9a7871366138e height=566135 version=0x20000000 log2_work=90.419136 tx=389966769 date='2019-03-08T03:26:30Z' progress=1.000000 cache=33.8MiB(248692txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:30:13Z UpdateTip: new best=0000000000000000001ca9dfc1e70d40941591ee73d6fe9c79ff9226d1dd4191 height=566136 version=0x20000000 log2_work=90.419158 tx=389967418 date='2019-03-08T03:30:04Z' progress=1.000000 cache=33.9MiB(249523txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:30:39Z UpdateTip: new best=0000000000000000001f87c1275a5fa84d29496029523b1e43643154b30bcb5d height=566137 version=0x26462000 log2_work=90.419181 tx=389967569 date='2019-03-08T03:30:34Z' progress=1.000000 cache=33.9MiB(249759txo) warning='40 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:31:41Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:34:55Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:37:11Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:39:19Z UpdateTip: new best=0000000000000000000aaa0613e511e79ad5e36479d951919f3d56e61a3f2862 height=566138 version=0x20000000 log2_work=90.419204 tx=389968929 date='2019-03-08T03:38:41Z' progress=1.000000 cache=34.3MiB(252830txo) warning='39 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T03:40:28Z ping timeout: 1200.008104s
+2019-03-08T03:47:48Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T03:49:11Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:52:48Z ping timeout: 1200.021632s
+2019-03-08T03:53:52Z socket send error Обрыв канала (32)
+2019-03-08T03:55:05Z ping timeout: 1200.030079s
+2019-03-08T03:58:05Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T03:58:51Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:01:54Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:04:30Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:06:15Z UpdateTip: new best=00000000000000000005aff673d9d6da40295b6b4b4449287b928060fe88dae5 height=566139 version=0x20000000 log2_work=90.419227 tx=389971447 date='2019-03-08T04:05:53Z' progress=1.000000 cache=35.1MiB(258777txo) warning='38 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T04:08:44Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:11:23Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:18:58Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:20:00Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:20:38Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T04:22:13Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:22:38Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:24:33Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:24:39Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:24:49Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:29:24Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:30:49Z UpdateTip: new best=0000000000000000002a39ec2441005303fc1f53c2a7f59073049d3201d2a5b1 height=566140 version=0x20000000 log2_work=90.419249 tx=389973953 date='2019-03-08T04:30:47Z' progress=1.000000 cache=36.1MiB(267702txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T04:31:43Z UpdateTip: new best=0000000000000000000cbaaf42761c1b789b65181411ba79b0bc1c193e8a0da0 height=566141 version=0x20000000 log2_work=90.419272 tx=389976523 date='2019-03-08T04:31:21Z' progress=1.000000 cache=36.4MiB(269761txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T04:32:55Z UpdateTip: new best=0000000000000000000d40062e45f61e4e0c09083bc2d867ffdb86e5fe605682 height=566142 version=0x20000000 log2_work=90.419295 tx=389976985 date='2019-03-08T04:32:44Z' progress=1.000000 cache=36.8MiB(273056txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T04:34:30Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:38:12Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:38:20Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:40:18Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:40:36Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:40:38Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:44:59Z Pre-allocating up to position 0xd00000 in rev01553.dat
+2019-03-08T04:44:59Z UpdateTip: new best=0000000000000000000b7236070b4011e13ccd84ba33612299dd3c887cc77ad1 height=566143 version=0x20000000 log2_work=90.419318 tx=389978858 date='2019-03-08T04:44:36Z' progress=1.000000 cache=37.1MiB(275729txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T04:45:26Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:45:37Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:53:06Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T04:55:02Z socket send error Соединение разорвано другой стороной (104)
+2019-03-08T04:58:03Z socket send error Обрыв канала (32)
+2019-03-08T05:00:28Z UpdateTip: new best=000000000000000000296a8bdd344bc6c0cbdf9f4478a4f36cceca7341546116 height=566144 version=0x20000000 log2_work=90.41934 tx=389981131 date='2019-03-08T04:59:52Z' progress=1.000000 cache=37.6MiB(279554txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T05:01:25Z socket send error Обрыв канала (32)
+2019-03-08T05:06:24Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:08:32Z socket send error Обрыв канала (32)
+2019-03-08T05:08:50Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:09:01Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:10:13Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:10:28Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T05:10:31Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:11:13Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T05:11:16Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:12:08Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:12:35Z UpdateTip: new best=0000000000000000000882448b21a15312b5af89712ca19065f1ec24c47c0ef9 height=566145 version=0x20000000 log2_work=90.419363 tx=389983035 date='2019-03-08T05:12:31Z' progress=1.000000 cache=38.0MiB(282465txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T05:13:19Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:13:31Z socket recv error Время ожидания соединения истекло (110)
+2019-03-08T05:17:18Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:18:23Z ERROR: AcceptBlockHeader: Consensus::ContextualCheckBlockHeader: 000000000000001daed8bac77bdf571441649e51732e91bec984cf97a39005a1, bad-diffbits, incorrect proof of work (code 16)
+2019-03-08T05:18:23Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:19:05Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:19:34Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:19:47Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:19:51Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:21:10Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:22:39Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:23:34Z UpdateTip: new best=000000000000000000032eba4cf40a709a1f5ba1c18f9c21e53ae4ecea2b97de height=566146 version=0x20400000 log2_work=90.419386 tx=389984685 date='2019-03-08T05:23:26Z' progress=1.000000 cache=38.3MiB(284971txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T05:25:29Z socket send error Обрыв канала (32)
+2019-03-08T05:27:06Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:32:13Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:33:17Z ERROR: AcceptBlockHeader: Consensus::ContextualCheckBlockHeader: 000000000000000000639be19a0123a1c99d9fef89f0b8ac055a77f4ef86ae3b, bad-diffbits, incorrect proof of work (code 16)
+2019-03-08T05:36:43Z socket send error Обрыв канала (32)
+2019-03-08T05:37:24Z socket send error Соединение разорвано другой стороной (104)
+2019-03-08T05:37:51Z socket send error Обрыв канала (32)
+2019-03-08T05:39:50Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:49:40Z socket receive timeout: 1201s
+2019-03-08T05:50:48Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:53:20Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:55:04Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:56:22Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T05:58:02Z Potential stale tip detected, will try using extra outbound peer (last tip update: 2068 seconds ago)
+2019-03-08T05:58:03Z New outbound peer connected: version: 70015, blocks=566146, peer=5409
+2019-03-08T05:58:43Z UpdateTip: new best=00000000000000000002a670a52eeca7432e01102c1e409a1eb93399ba43240e height=566147 version=0x20000000 log2_work=90.419408 tx=389987619 date='2019-03-08T05:57:50Z' progress=0.999999 cache=39.2MiB(292594txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T05:58:50Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:00:17Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:00:47Z ping timeout: 1200.045106s
+2019-03-08T06:01:00Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:02:41Z UpdateTip: new best=0000000000000000002aef886e838c91614dff87c22deb7ad184251c5875e048 height=566148 version=0x20000000 log2_work=90.419431 tx=389989509 date='2019-03-08T06:02:38Z' progress=1.000000 cache=39.3MiB(293579txo) warning='37 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T06:06:32Z ping timeout: 1200.009341s
+2019-03-08T06:08:08Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:10:38Z socket send error Обрыв канала (32)
+2019-03-08T06:12:35Z Pre-allocating up to position 0x7000000 in blk01553.dat
+2019-03-08T06:12:35Z UpdateTip: new best=00000000000000000028981c68ecd0dca4623f31c4bf52a65bea16c3859cf1b2 height=566149 version=0x20000000 log2_work=90.419454 tx=389991936 date='2019-03-08T06:12:36Z' progress=1.000000 cache=39.8MiB(297864txo) warning='36 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T06:17:02Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:18:11Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:18:16Z UpdateTip: new best=0000000000000000000db5608c1998fbd064b47b4e43a5da7c266917d8f6ab07 height=566150 version=0x20000000 log2_work=90.419477 tx=389992969 date='2019-03-08T06:18:06Z' progress=1.000000 cache=40.1MiB(299927txo) warning='35 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T06:20:16Z UpdateTip: new best=00000000000000000001ddb6ce3c07689150206a705ecb77e67f67ad2b565b19 height=566151 version=0x3fff0000 log2_work=90.419499 tx=389993272 date='2019-03-08T06:20:20Z' progress=1.000000 cache=40.1MiB(300361txo) warning='35 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T06:20:49Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:21:30Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:26:58Z Pre-allocating up to position 0xe00000 in rev01553.dat
+2019-03-08T06:26:58Z UpdateTip: new best=0000000000000000000a526f6d43813ad9059425753b18acb2036bf10b6ce5b9 height=566152 version=0x20400000 log2_work=90.419522 tx=389994524 date='2019-03-08T06:26:54Z' progress=1.000000 cache=40.4MiB(302085txo) warning='36 из последних 100 блоков имеют неожиданную версию'
+2019-03-08T06:32:34Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:35:04Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:38:37Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:38:47Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:39:01Z socket send error Обрыв канала (32)
+2019-03-08T06:40:40Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:48:02Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:49:38Z socket send error Время ожидания соединения истекло (110)
+2019-03-08T06:49:53Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T06:52:47Z GUI: Qt has caught an exception thrown from an event handler. Throwing
+exceptions from an event handler is not supported in Qt.
+You must not let any exception whatsoever propagate through Qt code.
+If that is not possible, in Qt 5 you must at least reimplement
+QCoreApplication::notify() and catch all exceptions there.
+
+2019-03-08T06:52:47Z 
+
+************************
+EXCEPTION: N5boost10filesystem16filesystem_errorE       
+filesystem::recursive_directory_iterator directory error: Отказано в доступе       
+bitcoin in Runaway exception       
+
+2019-03-08T06:57:41Z 
+
+
+
+
+2019-03-08T06:57:41Z Bitcoin Core version v0.18.0rc1 (release build)
+2019-03-08T06:57:41Z Assuming ancestors of block 0000000000000000000f1c54590ee18d15ec70e68c8cd4cfbadb1b4f11697eee have valid signatures.
+2019-03-08T06:57:41Z Setting nMinimumChainWork=0000000000000000000000000000000000000000051dc8b82f450202ecb3d471
+2019-03-08T06:57:41Z Using the 'sse4(1way),sse41(4way)' SHA256 implementation
+2019-03-08T06:57:42Z Default data directory /home/q/.bitcoin
+2019-03-08T06:57:42Z Using data directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-08T06:57:42Z Config file: /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/bitcoin.conf
+2019-03-08T06:57:42Z Using at most 125 automatic connections (1024 file descriptors available)
+2019-03-08T06:57:42Z Using 16 MiB out of 32/2 requested for signature cache, able to store 524288 elements
+2019-03-08T06:57:42Z Using 16 MiB out of 32/2 requested for script execution cache, able to store 524288 elements
+2019-03-08T06:57:42Z Using 6 threads for script verification
+2019-03-08T06:57:42Z scheduler thread start
+2019-03-08T06:57:42Z Using wallet directory /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-08T06:57:42Z init message: Verifying wallet(s)...
+2019-03-08T06:57:42Z Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2019-03-08T06:57:42Z Using wallet /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e
+2019-03-08T06:57:42Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-08T06:57:42Z init message: Загрузка черного списка...
+2019-03-08T06:57:42Z Cache configuration:
+2019-03-08T06:57:42Z * Using 2.0 MiB for block index database
+2019-03-08T06:57:42Z * Using 8.0 MiB for chain state database
+2019-03-08T06:57:42Z * Using 440.0 MiB for in-memory UTXO set (plus up to 286.1 MiB of unused mempool space)
+2019-03-08T06:57:42Z init message: Загрузка индекса блоков...
+2019-03-08T06:57:42Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index
+2019-03-08T06:57:42Z Opened LevelDB successfully
+2019-03-08T06:57:42Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/blocks/index: 0000000000000000
+2019-03-08T06:57:50Z LoadBlockIndexDB: last block file = 1553
+2019-03-08T06:57:50Z LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=100, size=102106983, heights=566051...566150, time=2019-03-07...2019-03-08)
+2019-03-08T06:57:50Z Checking all blk files are present...
+2019-03-08T06:57:51Z Opening LevelDB in /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate
+2019-03-08T06:57:51Z Opened LevelDB successfully
+2019-03-08T06:57:51Z Using obfuscation key for /mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/chainstate: 463a1504f1021ee0
+2019-03-08T06:57:52Z Loaded best chain: hashBestChain=0000000000000000002d6df9b9f1ac997a5e95bc24b6d2a13215fccdf8570c2c height=566086 date=2019-03-07T19:54:29Z progress=0.999624
+2019-03-08T06:57:52Z init message: Rewinding blocks...
+2019-03-08T06:57:54Z init message: Проверка блоков...
+2019-03-08T06:57:54Z Verifying last 6 blocks at level 3
+2019-03-08T06:57:54Z [0%]...[16%]...[33%]...[50%]...[66%]...[83%]...[99%]...[DONE].
+2019-03-08T07:00:20Z No coin database inconsistencies in last 6 blocks (11439 transactions)
+2019-03-08T07:00:20Z  block index          157793ms
+2019-03-08T07:00:20Z init message: Выполняется загрузка кошелька...
+2019-03-08T07:00:20Z BerkeleyEnvironment::Open: LogDir=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/database ErrorFile=/mnt/df7e9f79-29d7-4862-893e-ca0cfbf22e2e/db.log
+2019-03-08T07:00:20Z [default wallet] nFileVersion = 180000
+2019-03-08T07:00:20Z [default wallet] Keys: 0 plaintext, 4003 encrypted, 4003 w/ metadata, 4003 total. Unknown wallet records: 0
+2019-03-08T07:00:20Z [default wallet] Wallet completed loading in             175ms
+2019-03-08T07:00:20Z [default wallet] setKeyPool.size() = 1999
+2019-03-08T07:00:20Z [default wallet] mapWallet.size() = 2
+2019-03-08T07:00:20Z [default wallet] mapAddressBook.size() = 3
+2019-03-08T07:00:20Z mapBlockIndex.size() = 566170
+2019-03-08T07:00:20Z nBestHeight = 566086
+2019-03-08T07:00:20Z torcontrol thread start
+2019-03-08T07:00:20Z Bound to [::]:8333
+2019-03-08T07:00:20Z Bound to 0.0.0.0:8333
+2019-03-08T07:00:20Z init message: Выполняется загрузка P2P-адресов...
+2019-03-08T07:00:20Z Loaded 71528 addresses from peers.dat  338ms
+2019-03-08T07:00:20Z init message: Запуск сетевых потоков...
+2019-03-08T07:00:20Z dnsseed thread start
+2019-03-08T07:00:20Z addcon thread start
+2019-03-08T07:00:20Z net thread start
+2019-03-08T07:00:20Z opencon thread start
+2019-03-08T07:00:20Z init message: Загрузка завершена
+2019-03-08T07:00:20Z msghand thread start
+2019-03-08T07:00:31Z Loading addresses from DNS seeds (could take a while)
+2019-03-08T07:00:33Z 279 addresses found from DNS seeds
+2019-03-08T07:00:33Z dnsseed thread exit
+2019-03-08T07:00:54Z UpdateTip: new best=00000000000000000011ed279e30b82e6e541bda846b8731541f1e1c15a3023d height=566087 version=0x20400000 log2_work=90.418044 tx=389880444 date='2019-03-07T20:26:04Z' progress=0.999640 cache=1.7MiB(12824txo)
+2019-03-08T07:01:23Z UpdateTip: new best=0000000000000000001a135b6fe6cd2d0c393f182dcdb78484a3db9de6542f07 height=566088 version=0x20000000 log2_work=90.418067 tx=389883350 date='2019-03-07T20:32:22Z' progress=0.999643 cache=3.1MiB(23743txo)
+2019-03-08T07:01:51Z UpdateTip: new best=0000000000000000002ddd4ab9a0764a3d2a138dd1233791961beacf69607e35 height=566089 version=0x2000e000 log2_work=90.41809 tx=389886246 date='2019-03-07T20:34:21Z' progress=0.999644 cache=4.4MiB(32906txo)
+2019-03-08T07:02:09Z UpdateTip: new best=00000000000000000010f84d736a087d49482fac244e9ec49bdbb477766041e9 height=566090 version=0x3fffe000 log2_work=90.418113 tx=389889704 date='2019-03-07T20:39:34Z' progress=0.999647 cache=5.4MiB(41082txo)
+2019-03-08T07:02:23Z UpdateTip: new best=00000000000000000005639aa533713cdac99a2a7f7b27edcba6692ec6f92fa8 height=566091 version=0x20000000 log2_work=90.418135 tx=389891255 date='2019-03-07T20:43:11Z' progress=0.999649 cache=6.0MiB(45386txo)
+2019-03-08T07:02:44Z UpdateTip: new best=000000000000000000250c4b6909c0befc321610d4cd0229ad08ad45a3335eb4 height=566092 version=0x20000000 log2_work=90.418158 tx=389892333 date='2019-03-07T20:44:05Z' progress=0.999649 cache=6.7MiB(51104txo)
+2019-03-08T07:02:44Z GUI: Platform customization: "other"
+2019-03-08T07:02:44Z GUI: PaymentServer::LoadRootCAs: Loaded  134  root certificates
+2019-03-08T07:02:58Z UpdateTip: new best=0000000000000000002339403dedc19ae93f6f3912d364b42f568afa1ba7cfec height=566093 version=0x20000000 log2_work=90.418181 tx=389892941 date='2019-03-07T20:45:11Z' progress=0.999650 cache=7.6MiB(55811txo)
+2019-03-08T07:03:12Z UpdateTip: new best=0000000000000000000c9ed898ad11d40b030b2e384879da8c70826b2e533b09 height=566094 version=0x20000000 log2_work=90.418203 tx=389896283 date='2019-03-07T21:16:46Z' progress=0.999668 cache=8.8MiB(64920txo)
+2019-03-08T07:03:23Z UpdateTip: new best=000000000000000000020b708d3a3ce0911628023319a816a5dad2ad19652bfc height=566095 version=0x20000000 log2_work=90.418226 tx=389899198 date='2019-03-07T21:32:38Z' progress=0.999676 cache=9.6MiB(72000txo)
+2019-03-08T07:03:36Z UpdateTip: new best=00000000000000000015efd5221becd2eafdf54ae5917cbebfd8bd637fd092cd height=566096 version=0x20c00000 log2_work=90.418249 tx=389901493 date='2019-03-07T21:34:49Z' progress=0.999678 cache=10.4MiB(78127txo)
+2019-03-08T07:03:44Z UpdateTip: new best=0000000000000000002181fb6639e6840025ca41be6f35861ccee8d9f8d81ad8 height=566097 version=0x20000000 log2_work=90.418272 tx=389904997 date='2019-03-07T22:07:40Z' progress=0.999696 cache=11.3MiB(85917txo)
+2019-03-08T07:03:53Z UpdateTip: new best=0000000000000000000e8e8f0e2aa92f0492c9516e0b399abfbb9783d05f02f8 height=566098 version=0x20000000 log2_work=90.418294 tx=389907856 date='2019-03-07T22:30:30Z' progress=0.999709 cache=12.3MiB(94158txo)
+2019-03-08T07:03:53Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T07:04:00Z UpdateTip: new best=0000000000000000001ac032ec96095ee8ce05f60411e6bce2913f2423bcf208 height=566099 version=0x20c00000 log2_work=90.418317 tx=389910728 date='2019-03-07T22:57:29Z' progress=0.999724 cache=13.2MiB(101127txo)
+2019-03-08T07:04:06Z UpdateTip: new best=000000000000000000266533cc06dfe097b08130e6b01686f7e1fce7841f6d55 height=566100 version=0x3fffe000 log2_work=90.41834 tx=389913153 date='2019-03-07T23:11:55Z' progress=0.999732 cache=14.9MiB(108202txo)
+2019-03-08T07:04:13Z UpdateTip: new best=00000000000000000001df62fa1c01a747dd7e6325120463b94d6b4e84f5b7b3 height=566101 version=0x20000000 log2_work=90.418363 tx=389916318 date='2019-03-07T23:17:48Z' progress=0.999736 cache=15.7MiB(114338txo)
+2019-03-08T07:04:22Z UpdateTip: new best=00000000000000000025a4cd58818979108928cd87f16cb64af8c2af17a329f0 height=566102 version=0x20400000 log2_work=90.418385 tx=389919132 date='2019-03-07T23:22:24Z' progress=0.999738 cache=16.5MiB(120813txo)
+2019-03-08T07:04:28Z UpdateTip: new best=00000000000000000021bb2e9f717385d570381cb54d80d55052b0aa09c17c6c height=566103 version=0x20800000 log2_work=90.418408 tx=389921642 date='2019-03-07T23:34:20Z' progress=0.999745 cache=17.2MiB(126589txo)
+2019-03-08T07:04:34Z UpdateTip: new best=00000000000000000005deaf3b6ec665cd2d79832799fd15f9847b1b4e5c22ca height=566104 version=0x20000000 log2_work=90.418431 tx=389924834 date='2019-03-07T23:59:41Z' progress=0.999759 cache=18.0MiB(133533txo)
+2019-03-08T07:04:42Z UpdateTip: new best=0000000000000000000538d5a824f2d615df38d126ca05b4c40492014095992c height=566105 version=0x20000000 log2_work=90.418454 tx=389926079 date='2019-03-08T00:05:51Z' progress=0.999763 cache=18.5MiB(137357txo)
+2019-03-08T07:04:50Z UpdateTip: new best=0000000000000000002bed01f21a9a11185529c777c3195128d383fa3cffe4a6 height=566106 version=0x20000000 log2_work=90.418476 tx=389928790 date='2019-03-08T00:09:16Z' progress=0.999764 cache=19.4MiB(145036txo)
+2019-03-08T07:05:00Z UpdateTip: new best=0000000000000000001e918cd7c6645dc6c6ce0686dd9226cb8b7f18a9119c79 height=566107 version=0x20000000 log2_work=90.418499 tx=389930741 date='2019-03-08T00:13:03Z' progress=0.999766 cache=20.3MiB(152592txo)
+2019-03-08T07:05:05Z UpdateTip: new best=0000000000000000001e73297f4a207b3d5ecbf9bce35207383befa1abfc3f88 height=566108 version=0x20800000 log2_work=90.418522 tx=389933522 date='2019-03-08T00:29:20Z' progress=0.999776 cache=21.1MiB(158685txo)
+2019-03-08T07:05:12Z UpdateTip: new best=0000000000000000002b27b3cd7ff2bed18bd6d8ffa6e643641afa9e4eaf1c34 height=566109 version=0x20000000 log2_work=90.418545 tx=389935812 date='2019-03-08T00:37:17Z' progress=0.999780 cache=21.9MiB(165440txo)
+2019-03-08T07:05:21Z UpdateTip: new best=00000000000000000020779f9259553fc6db26a99965fb511c4f707294bf31cb height=566110 version=0x20000000 log2_work=90.418567 tx=389936587 date='2019-03-08T00:38:33Z' progress=0.999781 cache=22.8MiB(172803txo)
+2019-03-08T07:05:21Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T07:05:22Z UpdateTip: new best=0000000000000000001d7ff73afddb1ddf2fecddc8471023764db4e9b2921f88 height=566111 version=0x20000000 log2_work=90.41859 tx=389937100 date='2019-03-08T00:41:14Z' progress=0.999782 cache=23.0MiB(174017txo)
+2019-03-08T07:05:24Z UpdateTip: new best=0000000000000000001c1dd07cde27d4d97a1f7c3f114d34a59e8bb248d532bc height=566112 version=0x20000000 log2_work=90.418613 tx=389939144 date='2019-03-08T00:52:44Z' progress=0.999789 cache=23.5MiB(178540txo)
+2019-03-08T07:05:25Z UpdateTip: new best=0000000000000000001859d11e05ef2c80be8daf042cf47c7f3c3917292c8de6 height=566113 version=0x20000000 log2_work=90.418636 tx=389940551 date='2019-03-08T01:00:01Z' progress=0.999793 cache=25.3MiB(193331txo)
+2019-03-08T07:05:26Z UpdateTip: new best=0000000000000000000d658a2ee7617d41af3870d2b463715410f772bcd7da36 height=566114 version=0x20000000 log2_work=90.418658 tx=389940848 date='2019-03-08T01:01:17Z' progress=0.999794 cache=25.5MiB(194454txo)
+2019-03-08T07:05:28Z UpdateTip: new best=00000000000000000020f1ec4b9da81f54f7db3ea2737abe23caa7c2abad0d63 height=566115 version=0x20400000 log2_work=90.418681 tx=389943822 date='2019-03-08T01:25:48Z' progress=0.999807 cache=26.2MiB(200204txo)
+2019-03-08T07:05:30Z UpdateTip: new best=000000000000000000152d8292b0a84accc9f1e65778b41c71d426a94e2a69ab height=566116 version=0x20000000 log2_work=90.418704 tx=389945028 date='2019-03-08T01:26:49Z' progress=0.999808 cache=26.4MiB(202334txo)
+2019-03-08T07:05:30Z New outbound peer connected: version: 70015, blocks=566152, peer=44
+2019-03-08T07:05:30Z UpdateTip: new best=00000000000000000004c884eda220b764d6f1dca7e9236883fc6af36904f376 height=566117 version=0x20000000 log2_work=90.418727 tx=389945639 date='2019-03-08T01:29:42Z' progress=0.999810 cache=26.7MiB(204294txo)
+2019-03-08T07:05:30Z UpdateTip: new best=0000000000000000000b5acd747ba1f0cac7904386c654ec4532543e2be476cf height=566118 version=0x20000000 log2_work=90.418749 tx=389945821 date='2019-03-08T01:30:51Z' progress=0.999810 cache=26.8MiB(205123txo)
+2019-03-08T07:05:32Z UpdateTip: new best=00000000000000000018cffa9fcb32c78045a5bf76f5a09834fcb4625eabcd69 height=566119 version=0x20400000 log2_work=90.418772 tx=389946999 date='2019-03-08T01:36:15Z' progress=0.999813 cache=27.0MiB(206974txo)
+2019-03-08T07:05:33Z UpdateTip: new best=0000000000000000002946191950520732d085a2cfd81324629a4ededfa6580b height=566120 version=0x20000000 log2_work=90.418795 tx=389948103 date='2019-03-08T01:43:10Z' progress=0.999817 cache=27.3MiB(209515txo)
+2019-03-08T07:05:33Z UpdateTip: new best=0000000000000000000ffe41f26212fd7b6e143a30a58bbe4a864b4a4be826bd height=566121 version=0x20000000 log2_work=90.418817 tx=389948330 date='2019-03-08T01:44:04Z' progress=0.999818 cache=27.4MiB(210397txo)
+2019-03-08T07:05:34Z UpdateTip: new best=000000000000000000030015bde77b1ca12ff3f760182a55ff1f5e6518c97474 height=566122 version=0x20c00000 log2_work=90.41884 tx=389948858 date='2019-03-08T01:46:22Z' progress=0.999819 cache=27.5MiB(211326txo)
+2019-03-08T07:05:34Z UpdateTip: new best=0000000000000000000ea53537589345ef633a33ecd149cb3e1566358efba67b height=566123 version=0x20000000 log2_work=90.418863 tx=389948914 date='2019-03-08T01:46:39Z' progress=0.999819 cache=27.5MiB(211167txo)
+2019-03-08T07:05:34Z New outbound peer connected: version: 70015, blocks=566152, peer=54
+2019-03-08T07:05:35Z UpdateTip: new best=00000000000000000002c0537f0e7dd213b731bb83a3759aa3c92683b57493c6 height=566124 version=0x20000000 log2_work=90.418886 tx=389950368 date='2019-03-08T01:54:19Z' progress=0.999824 cache=27.9MiB(214287txo)
+2019-03-08T07:05:36Z UpdateTip: new best=0000000000000000001f7e233071f05d2a5d7049172588a1bee2b1ebbc26ab0f height=566125 version=0x3fff0000 log2_work=90.418908 tx=389952506 date='2019-03-08T02:06:09Z' progress=0.999830 cache=28.3MiB(217621txo)
+2019-03-08T07:05:38Z UpdateTip: new best=0000000000000000002272b1ef6d5f3f329ae4a407c9d60f20c885ea95bc4612 height=566126 version=0x20800000 log2_work=90.418931 tx=389954390 date='2019-03-08T02:14:45Z' progress=0.999835 cache=30.6MiB(222257txo)
+2019-03-08T07:05:38Z UpdateTip: new best=00000000000000000025d28d5887d3ea2894e6f1b02a79acbb803d64464c0363 height=566127 version=0x20000000 log2_work=90.418954 tx=389955318 date='2019-03-08T02:20:06Z' progress=0.999838 cache=30.9MiB(225109txo)
+2019-03-08T07:05:39Z UpdateTip: new best=0000000000000000000d9b4d9411342582e8064e8b6fd117966460abe9dc274a height=566128 version=0x20000000 log2_work=90.418977 tx=389956416 date='2019-03-08T02:26:14Z' progress=0.999842 cache=31.7MiB(231363txo)
+2019-03-08T07:05:42Z UpdateTip: new best=0000000000000000000dc86561aa0a65d21f0308d7f51632f41d5fefcbd5ae3b height=566129 version=0x20000000 log2_work=90.418999 tx=389959336 date='2019-03-08T02:53:35Z' progress=0.999857 cache=32.4MiB(236910txo)
+2019-03-08T07:05:44Z UpdateTip: new best=0000000000000000000b83e64fd658d627ecbd9b54d8d615573fd39cf9230e56 height=566130 version=0x20000000 log2_work=90.419022 tx=389961975 date='2019-03-08T03:05:49Z' progress=0.999864 cache=33.0MiB(241977txo)
+2019-03-08T07:05:46Z UpdateTip: new best=0000000000000000002cb4a2e5b3ba0b76efb1f701aac6db13aeb2dcd6d9389a height=566131 version=0x3fff0000 log2_work=90.419045 tx=389963450 date='2019-03-08T03:09:13Z' progress=0.999866 cache=33.3MiB(244205txo)
+2019-03-08T07:05:47Z UpdateTip: new best=0000000000000000000528aa89b987bd5ed693a4f7dd52d61ca913d1b4454cde height=566132 version=0x20000000 log2_work=90.419068 tx=389964025 date='2019-03-08T03:11:21Z' progress=0.999867 cache=33.3MiB(244855txo)
+2019-03-08T07:05:48Z UpdateTip: new best=00000000000000000007379fc3c678a1e77b870f97391365a7968292b0e474cb height=566133 version=0x20000000 log2_work=90.41909 tx=389966218 date='2019-03-08T03:24:23Z' progress=0.999874 cache=33.7MiB(247959txo)
+2019-03-08T07:05:48Z UpdateTip: new best=0000000000000000000cbc01905b6274847a3d5e8ad62e8c05f05dea428a27be height=566134 version=0x2fff4000 log2_work=90.419113 tx=389966338 date='2019-03-08T03:24:44Z' progress=0.999875 cache=33.7MiB(248137txo)
+2019-03-08T07:05:49Z UpdateTip: new best=000000000000000000086bec1e38944e387b2db9960a8008b6b9a7871366138e height=566135 version=0x20000000 log2_work=90.419136 tx=389966769 date='2019-03-08T03:26:30Z' progress=0.999876 cache=33.8MiB(248681txo)
+2019-03-08T07:05:49Z socket recv error Соединение разорвано другой стороной (104)
+2019-03-08T07:05:49Z New outbound peer connected: version: 70015, blocks=566152, peer=58
+2019-03-08T07:05:49Z UpdateTip: new best=0000000000000000001ca9dfc1e70d40941591ee73d6fe9c79ff9226d1dd4191 height=566136 version=0x20000000 log2_work=90.419158 tx=389967418 date='2019-03-08T03:30:04Z' progress=0.999878 cache=33.9MiB(249493txo)
+2019-03-08T07:05:49Z UpdateTip: new best=0000000000000000001f87c1275a5fa84d29496029523b1e43643154b30bcb5d height=566137 version=0x26462000 log2_work=90.419181 tx=389967569 date='2019-03-08T03:30:34Z' progress=0.999878 cache=33.9MiB(249738txo)
+2019-03-08T07:05:50Z UpdateTip: new best=0000000000000000000aaa0613e511e79ad5e36479d951919f3d56e61a3f2862 height=566138 version=0x20000000 log2_work=90.419204 tx=389968929 date='2019-03-08T03:38:41Z' progress=0.999883 cache=34.3MiB(252555txo)
+2019-03-08T07:05:53Z UpdateTip: new best=00000000000000000005aff673d9d6da40295b6b4b4449287b928060fe88dae5 height=566139 version=0x20000000 log2_work=90.419227 tx=389971447 date='2019-03-08T04:05:53Z' progress=0.999898 cache=34.8MiB(257000txo)
+2019-03-08T07:05:54Z UpdateTip: new best=0000000000000000002a39ec2441005303fc1f53c2a7f59073049d3201d2a5b1 height=566140 version=0x20000000 log2_work=90.419249 tx=389973953 date='2019-03-08T04:30:47Z' progress=0.999912 cache=35.8MiB(264591txo)
+2019-03-08T07:05:55Z tor: Thread interrupt
+2019-03-08T07:05:55Z Shutdown: In progress...
+2019-03-08T07:05:55Z torcontrol thread exit
+2019-03-08T07:05:55Z addcon thread exit
+2019-03-08T07:05:55Z msghand thread exit
+2019-03-08T07:05:57Z UpdateTip: new best=0000000000000000000cbaaf42761c1b789b65181411ba79b0bc1c193e8a0da0 height=566141 version=0x20000000 log2_work=90.419272 tx=389976523 date='2019-03-08T04:31:21Z' progress=0.999912 cache=36.3MiB(268936txo)
+2019-03-08T07:05:57Z opencon thread exit
+2019-03-08T07:05:57Z net thread exit
+2019-03-08T07:05:57Z scheduler thread interrupt
+2019-03-08T07:05:59Z [default wallet] Releasing wallet
+2019-03-08T07:05:59Z Shutdown: done
+2019-03-08T07:06:25Z 
+
+
+
